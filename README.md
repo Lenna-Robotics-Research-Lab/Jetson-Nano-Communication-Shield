@@ -47,28 +47,16 @@ The technical details are as follows:
 |  Communication Ports  | UART </br> SPI </br> I2C |
 |  Digital I/O  | x 2 &ensp; PWM |
 
-</br>
-
-### Bill of  Material
-| Part Number | Description | Designator | Quantity |
-|     ---     |     ----    |     ---    |   ----   |
-
 </br></br>
 
-> [!NOTE]  
+> **NOTE**  
 > The presented design has limitations due to the unavailability of certain components in the market and specific application constraints. Firstly, the isolated UART communication does not include the RTS and CTS pins. To isolate these signals, the quad-channel digital isolator ADuM1402 can be used as a suitable component. Furthermore, for SPI communication, the fast isolator can only operate when the Jetson Nano functions as the Master. To address this issue, it is recommended to integrate components like the multi-slave digital isolator ADuM4154. Please be aware that the mentioned part numbers are suggestions to assist in the development of your design. You are welcome to use other components suitable for your specific application. Datasheets and design documents for each device can be found in this repository.
 
-> [!WARNING]  
+> **WARNING**  
 > It is important to understand that the onboard input power source cannot be used as an output power source to supply power to other devices. This is because it is NOT connected to the Jetson Nano's 5V power. Its sole purpose is to power the Jetson Nano and the shield through the GPIOs. Additionally, it is crucial to note that the input power connector does not include any additional voltage regulation circuits. Therefore, it is critical to provide a clean and steady 5V voltage input using an external power circuit. This ensures safety, prevents any potential damage to the board, and promotes efficient performance. While this input power source is provided for user convenience and several integrated applications such as mobile robotics, it is strongly recommended to power up the board using the designated NVIDIA Jetson Nano power options. This approach is considered safer and more efficient, guaranteeing optimal performance and preventing any potential issues.
 
 ## Acknowledgment
 The "RS485 CAN Bus for Jetson Nano", designed by Waveshare Electronics, served as a valuable source of inspiration for the development of our communication shield. Although our design offers completely different serial interfaces, we incorporated some of their design principles and concepts into our product. Hence, we extend our sincere appreciation to Waveshare Electronics. Additionally, it is worth noting that our communication shield is fully compatible with the "RS485 CAN Bus for Jetson Nano". By employing separate communication interfaces, both devices can function harmoniously alongside one another.
-
-## Quick Start
-
-### Hardware Layout
-
-### Code Examples
 
 ## APPENDIX
 ### Folder Structure
@@ -93,7 +81,5 @@ The project folder structure is organized to encompass all essential components 
 
 ### Contributing
 We greatly appreciate your contributions, which can take various forms such as raising issues, creating Pull Requests to improve or expand documentation, as well as resolving existing issues or adding new features.
-
-### License
 
 </div>
