@@ -1,0 +1,208 @@
+Board Information Report
+Filename     : E:\Repositories\Jetson-Nano-Communication-Shield\Design\Electronics\PCB-Projects\Jetson-Nano-Communication-Shield\Communication-Shield.PcbDoc
+Date         : 8/6/2023
+Time         : 5:17:11 PM
+Time Elapsed : 00:00:00
+
+General
+    Board Size, 3937.008milsx3110.236mils
+    Components on board, 99
+count : 2
+
+Routing Information
+    Routing completion, 100.00%
+    Connections, 221
+    Connections routed, 221
+    Connections remaining, 0
+count : 4
+
+Layer, Arcs, Pads, Vias, Tracks, Texts, Fills, Regions, ComponentBodies
+    Top Layer, 0, 130, 0, 338, 0, 9, 201, 0
+    Bottom Layer, 0, 109, 0, 185, 0, 4, 166, 0
+    Mechanical 1, 0, 0, 0, 0, 0, 0, 0, 6
+    Mechanical 3, 0, 0, 0, 0, 0, 0, 14, 0
+    Mechanical 13, 9, 0, 0, 310, 0, 0, 79, 94
+    Mechanical 15, 0, 0, 0, 380, 0, 0, 0, 0
+    Multi-Layer, 0, 90, 256, 0, 0, 0, 3, 0
+    Top Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Top Overlay, 13, 0, 0, 177, 181, 1, 6, 0
+    Top Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Solder, 0, 0, 0, 0, 0, 0, 0, 0
+    Bottom Overlay, 0, 0, 0, 123, 122, 0, 0, 0
+    Bottom Paste, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Guide, 14, 0, 0, 33, 0, 0, 0, 0
+    Keep-Out Layer, 0, 0, 0, 0, 0, 0, 0, 0
+    Drill Drawing, 0, 0, 0, 0, 0, 0, 0, 0
+count : 16
+
+Drill Pairs, Vias
+    Top Layer - Bottom Layer, 256
+count : 1
+
+Layer, Sq.In., Sq.MM., Percent of layer
+    Top Layer, 4.938, 3185.836, 75%
+    Bottom Layer, 5.025, 3241.712, 76%
+count : 2
+
+Non-Plated Hole Size, Pads, Vias
+count : 0
+
+Plated Hole Size, Pads, Vias
+    0mils, 239, 0
+    11.811mils, 24, 0
+    15mils, 0, 246
+    28mils, 0, 10
+    35.433mils, 40, 0
+    39.37mils, 4, 0
+    41.339mils, 14, 0
+    43.307mils, 5, 0
+    124.016mils, 3, 0
+count : 9
+
+Non-Plated Slot Size / Length, Pads
+count : 0
+
+Plated Slot Size / Length, Pads
+count : 0
+
+Non-Plated Square Hole Size, Pads
+count : 0
+
+Plated Square Hole Size, Pads
+count : 0
+
+Top Layer Annular Ring Size, Count
+    10mils, 4
+    11.811mils, 24
+    15mils, 242
+    20mils, 4
+    22mils, 10
+    23.622mils, 42
+    25.591mils, 14
+    27.559mils, 3
+    72.835mils, 3
+count : 9
+
+Mid Layer Annular Ring Size, Count
+    10mils, 4
+    11.811mils, 24
+    15mils, 242
+    20mils, 4
+    22mils, 10
+    23.622mils, 42
+    25.591mils, 14
+    27.559mils, 3
+    72.835mils, 3
+count : 9
+
+Bottom Layer Annular Ring Size, Count
+    10mils, 4
+    11.811mils, 24
+    15mils, 242
+    20mils, 4
+    22mils, 10
+    23.622mils, 42
+    25.591mils, 14
+    27.559mils, 3
+    72.835mils, 3
+count : 9
+
+Pad Solder Mask, Count
+    3.937mils, 3
+    4mils, 326
+count : 2
+
+Pad Paste Mask, Count
+    0mils, 329
+count : 1
+
+Pad Pwr/Gnd Expansion, Count
+    20mils, 329
+count : 1
+
+Pad Relief Conductor Width, Count
+    10mils, 329
+count : 1
+
+Pad Relief Air Gap, Count
+    10mils, 329
+count : 1
+
+Pad Relief Entries, Count
+    4, 329
+count : 1
+
+Via Solder Mask, Count
+    4mils, 256
+count : 1
+
+Via Pwr/Gnd Expansion, Count
+    20mils, 256
+count : 1
+
+Track Width, Count
+    1.575mils, 4
+    1.969mils, 232
+    2mils, 140
+    3.937mils, 8
+    4mils, 70
+    5mils, 493
+    6mils, 12
+    7.874mils, 18
+    8mils, 13
+    10mils, 400
+    11.811mils, 1
+    20mils, 149
+    25mils, 3
+    40mils, 3
+count : 14
+
+Arc Line Width, Count
+    5mils, 16
+    7.874mils, 14
+    9.449mils, 2
+    10mils, 1
+    35mils, 3
+count : 5
+
+Arc Radius, Count
+    3.937mils, 14
+    4.724mils, 2
+    5mils, 1
+    12mils, 2
+    19.685mils, 3
+    39.37mils, 11
+    124.591mils, 3
+count : 7
+
+Arc Degrees, Count
+    90, 14
+    180, 2
+    360, 20
+count : 3
+
+Text Height, Count
+    20mils, 76
+    28mils, 24
+    30mils, 86
+    40mils, 5
+    50mils, 10
+    55mils, 1
+    60mils, 100
+    65mils, 1
+count : 8
+
+Text Width, Count
+    5mils, 2
+    6mils, 76
+    8mils, 116
+    10mils, 109
+count : 4
+
+Net Track Width, Count
+    6mils, 68
+count : 1
+
+Net Via Size, Count
+    30mils, 68
+count : 1
