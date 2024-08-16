@@ -1,6 +1,6 @@
 # Jetson Nano Communication Shield
 
-<div style="text-align: justify"> 
+<div align="justify">
 
 ![Jetson Nano Communication Board](Jetson-Nano-Communication-Board.jpg)
 
